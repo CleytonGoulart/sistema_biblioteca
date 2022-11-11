@@ -72,8 +72,8 @@ $cakeDescription = 'CEPEF - Biblioteca';
           <li class="<?=$this->request->getParam('action') === 'index' ? 'active' : ''?>">
             <?= $this->Html->link('Inicío', ['action' => 'index']); ?>
           </li>       
-          <li class="<?=$this->request->getParam('action') === 'agenda' ? 'active' : ''?>">
-            <?= $this->Html->link('Lançamentos', ['action' => 'agenda']); ?>
+          <li class="<?=$this->request->getParam('action') === 'livros' ? 'active' : ''?>">
+            <?= $this->Html->link('Livros', ['action' => 'livros']); ?>
           </li>
           <li> <a target="blank"
               href="https://api.whatsapp.com/send?phone=5567992036995&text=Quero%20conhecer%20o%20CEPEF%20!">

@@ -6,7 +6,7 @@
      <h2>Somos uma equipe de mudanças</h2>
 
 
-     <a href="<?php echo $this->Url->build(['action' => 'agenda']); ?> " class="btn-get-started">Novos Livros</a>
+     <a href="<?php echo $this->Url->build(['action' => 'livros']); ?> " class="btn-get-started">Novos Livros</a>
 
 
    </div>
@@ -63,23 +63,23 @@
      <div class="row counters">
 
        <div class="col-lg-3 col-6 text-center">
-         <span data-toggle="counter-up">1232</span>
-         <p>Alunos</p>
-       </div>
-
-       <div class="col-lg-3 col-6 text-center">
-         <span data-toggle="counter-up">64</span>
-         <p>Cursos</p>
-       </div>
-
-       <div class="col-lg-3 col-6 text-center">
-         <span data-toggle="counter-up">42</span>
+         <span data-toggle="counter-up">12332</span>
          <p>Livros</p>
        </div>
 
        <div class="col-lg-3 col-6 text-center">
-         <span data-toggle="counter-up">15</span>
+         <span data-toggle="counter-up">64</span>
          <p>Novos Livros</p>
+       </div>
+
+       <div class="col-lg-3 col-6 text-center">
+         <span data-toggle="counter-up">423</span>
+         <p>Autores</p>
+       </div>
+
+       <div class="col-lg-3 col-6 text-center">
+         <span data-toggle="counter-up">145</span>
+         <p>Categorias</p>
        </div>
 
      </div>
@@ -423,7 +423,7 @@
      <div class="row" data-aos="zoom-in" data-aos-delay="100" style="text-align: center;">
        <div class="col-lg-3 col-md-4">
          <div class="icon-box">
-           <div class="testimonial-item">
+           <div class="testimonial-item" style="text-align: center;"v>
              <?= $this->Html->image('mentor/img/trainers/FOTO.jpg', ['class' => 'img-fluid']); ?>
              <div class="member-content">
                <h4 style="text-align: center;">Lorem Ipsum</h4>
