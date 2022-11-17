@@ -139,7 +139,7 @@
        <div class="col-lg-3 col-md-4">
          <div class="icon-box">
            <div class="testimonial-item" style="text-align: center;"v>
-             <?= $this->Html->image('mentor/img/trainers/edineia.jpeg', ['class' => 'img-fluid']); ?>
+             <?= $this->Html->image('mentor/img/trainers/edineia.jpg', ['class' => 'img-fluid']); ?>
              <div class="member-content">
                <h4 style="text-align: center;">Edineia</h4>
                <span style="font-weight: bold; font-size: 13px; line-height: 0.1%;">Lorem Ipsum </span>
@@ -154,7 +154,7 @@
        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
          <div class="icon-box">
            <div class="testimonial-item">
-             <?= $this->Html->image('mentor/img/trainers/lucia.jpeg', ['class' => 'img-fluid']); ?>
+             <?= $this->Html->image('mentor/img/trainers/lucia.jpg', ['class' => 'img-fluid']); ?>
              <div class="member-content" style="text-align: center;">
                <h4>Lucia</h4>
                <span style="font-weight: bold; font-size: 13px; line-height: 0.1%;">Lorem Ipsum</span>
