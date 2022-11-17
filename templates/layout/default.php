@@ -83,7 +83,7 @@ $cakeDescription = 'CEPEF - Biblioteca';
       </nav><!-- .nav-menu -->
 
       <!-- <a href="courses.html" class="get-started-btn">Get Started</a> -->
-      <?= $this->Html->link('Portal do Aluno', ['prefix' => 'Aluno', 'controller' => 'Dashboard', 'action' => 'index'], ['class' => 'get-started-btn']); ?>
+      <?= $this->Html->link('Portal do bibliotecário', ['prefix' => 'Admin', 'controller' => 'emprestimos', 'action' => 'index'], ['class' => 'get-started-btn']); ?>
 
     </div>
 

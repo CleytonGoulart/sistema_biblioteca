@@ -55,6 +55,7 @@ class EmprestimosController extends AppController
         $emprestimo = $this->Emprestimos->newEmptyEntity();
         if ($this->request->is('post')) {
             $emprestimo = $this->Emprestimos->patchEntity($emprestimo, $this->request->getData());
+            $emprestimo->data_emprestimo = date('Y-m-d H:i:s');
             if ($this->Emprestimos->save($emprestimo)) {
                 $this->Flash->success(__('The {0} has been saved.', 'Emprestimo'));
 

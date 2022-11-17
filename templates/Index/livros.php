@@ -87,7 +87,7 @@
                                 <h3> <?= $livro->nome ?></h3>
                                 <p></p><strong>Autor <?= $livro->autor ?></strong>
                                 <h5>Sobre o livro</h5>
-                                <p><?= $livro->assunto ?></p><br>
+                                <p><?= substr($livro->assunto,0,70)?>..</p><br>
 
                             </div>
                         </div>
