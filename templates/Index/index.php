@@ -188,27 +188,39 @@
 
        <div class="testimonial-wrap text-center">
          <div class="testimonial-item">
-           <?= $this->Html->image('mentor/img/galeria/FOTO.jpg', ['class' => 'img-fluid']); ?>
+           <?= $this->Html->image('mentor/img/galeria/1.jpg', ['class' => 'img-fluid']); ?>
          </div>
        </div>
 
        <div class="testimonial-wrap text-center">
          <div class="testimonial-item">
-           <?= $this->Html->image('mentor/img/galeria/FOTO.jpg', ['class' => 'img-fluid']); ?>
-
-         </div>
-       </div>
-
-       <div class="testimonial-wrap text-center">
-         <div class="testimonial-item">
-           <?= $this->Html->image('mentor/img/galeria/FOTO.jpg', ['class' => 'img-fluid']); ?>
+           <?= $this->Html->image('mentor/img/galeria/2.jpg', ['class' => 'img-fluid']); ?>
 
          </div>
        </div>
 
        <div class="testimonial-wrap text-center">
          <div class="testimonial-item">
-           <?= $this->Html->image('mentor/img/galeria/FOTO.jpg', ['class' => 'img-fluid']); ?>
+           <?= $this->Html->image('mentor/img/galeria/3.jpg', ['class' => 'img-fluid']); ?>
+
+         </div>
+       </div>
+
+       <div class="testimonial-wrap text-center">
+         <div class="testimonial-item">
+           <?= $this->Html->image('mentor/img/galeria/4.jpg', ['class' => 'img-fluid']); ?>
+
+         </div>
+       </div>
+       <div class="testimonial-wrap text-center">
+         <div class="testimonial-item">
+           <?= $this->Html->image('mentor/img/galeria/5.jpg', ['class' => 'img-fluid']); ?>
+
+         </div>
+       </div>
+       <div class="testimonial-wrap text-center">
+         <div class="testimonial-item">
+           <?= $this->Html->image('mentor/img/galeria/6.jpg', ['class' => 'img-fluid']); ?>
 
          </div>
        </div>
