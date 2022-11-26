@@ -21,19 +21,20 @@ class EmprestimosController extends AppController
      */
     public function index()
     {
-        $query = $this->Emprestimos->find()
-            ->contain(['Clientes', 'Livros', 'Usuarios'])
+        $query = $this->Emprestimos->find('all')
+            ->contain(['Clientes', 'Livros'])
             ->where(['Emprestimos.situacao_id' => 1])
-            ->order(['Emprestimos.emprestimo_situacao_id'  => 2]);
-          //  debug($query);exit;
+            ->order(['Emprestimos.emprestimo_situacao_id' => 'ASC']);
+         
+   
         //filtro de alunos 
         if ($this->request->getQuery('cliente_id')) {
             $cliente_id = $this->request->getQuery('cliente_id');
-            $query->where(['Emprestimos.cliente_id IN' => $cliente_id]);
+            $query->andWhere(['Emprestimos.cliente_id IN' => $cliente_id]);
         }
         if ($this->request->getQuery('livro_id')) {
             $livro_id = $this->request->getQuery('livro_id');
-            $query->where(['Emprestimos.livro_id IN' => $livro_id]);
+            $query->andWhere(['Emprestimos.livro_id IN' => $livro_id]);
         }
 
         //Filtro de data de inicio do emprestimo
@@ -61,8 +62,9 @@ class EmprestimosController extends AppController
         $this->paginate = [
             'contain' => ['Clientes', 'Livros', 'Usuarios'],
         ];
-        $emprestimos = $this->paginate($this->Emprestimos);
+        $emprestimos = $this->paginate($query);
 
+        // debug($query);
         $clientes = $this->Emprestimos->Clientes->find('list', ['limit' => 200]);
         $livros = $this->Emprestimos->Livros->find('list', ['limit' => 200]);
         $this->set(compact('emprestimos', 'clientes', 'livros'));

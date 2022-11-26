@@ -76,8 +76,9 @@
                   <td><?= h($emprestimo->data_emprestimo) ?></td>
                   <td><?= h($emprestimo->data_devolucao) ?></td>
                   <td class="actions text-center">
+                    <?php if($emprestimo->emprestimo_situacao_id == 1): ?>
                     <?= $this->Form->postLink(__('Devolução'), ['action' => 'devolucao', $emprestimo->id], ['confirm' => __('Deseja confirmar a devolução do Livro # {0}?', $emprestimo->id), 'class' => 'btn btn-info btn-xs']) ?>
-
+                    <?php endif; ?>
                     <?= $this->Html->link(__('Editar'), ['action' => 'edit', $emprestimo->id], ['class' => 'btn btn-warning btn-xs']) ?>
                     <?= $this->Form->postLink(__('Deletar'), ['action' => 'delete', $emprestimo->id], ['confirm' => __('Are you sure you want to delete # {0}?', $emprestimo->id), 'class' => 'btn btn-danger btn-xs']) ?>
                   </td>
