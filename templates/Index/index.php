@@ -29,15 +29,17 @@
        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
          <h3>A leitura de um bom livro é um diálogo incessante: o livro fala e a alma responde.</h3>
          <p class="font-italic text-justify">
-           A leitura é como a música da imaginação,que no faz percorrer  caminho da sabedoria
+           A leitura é como a música da imaginação,que no faz percorrer caminho da sabedoria
          </p>
-       
+
          <p>
-           
+
          </p>
          <ul>
+           <li><i class="icofont-check-circled"></i> Ler é dançar com a imaginação.</li>
+           <li><i class="icofont-check-circled"></i> Viver sem ler é perigoso, te obriga a crer no que te dizem!</li>
+           <li><i class="icofont-check-circled"></i> Desafie um amigo a ler!</li>
            <li><i class="icofont-check-circled"></i> Venha nós conhecer!</li>
-
          </ul>
          <!--
          <a href="about.html" class="learn-more-btn">Learn More</a>
@@ -88,7 +90,7 @@
          <div class="content">
            <h3>É Preciso Ler Para Viver Por Completo</h3>
            <p class="text-justify">
-           Os livros podem te proporcionar uma viagem para diversos mundos, através de histórias contadas em livros e através da sua imaginação isso é possível, leia. 
+             Os livros podem te proporcionar uma viagem para diversos mundos, através de histórias contadas em livros e através da sua imaginação isso é possível, leia.
            </p>
            <!-- btn para pagina de explicação 
            <div class="text-center">
@@ -103,22 +105,24 @@
              <div class="col-xl-4 d-flex align-items-stretch">
                <div class="icon-box mt-4 mt-xl-0">
                  <!--  <i class="bx bx-receipt"></i>-->
-                 <h4>Como se Habituar a Leitura?</h4>
-                 <p></p>
+                 <h4>Para que serve a leitura?</h4>
+                 <p>Ler estimula a criatividade, trabalha a imaginação, exercita a memória, contribui com o crescimento
+                   do vocabulário e a melhora na escrita, além de outros benefícios.
+                 </p>
                </div>
              </div>
              <div class="col-xl-4 d-flex align-items-stretch">
                <div class="icon-box mt-4 mt-xl-0">
                  <!--   <i class="bx bx-cube-alt"></i>-->
-                 <h4>Ullamco laboris ladore pan</h4>
-                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                 <h4>Como se habituar a Leitura</h4>
+                 <p>Escolha os assuntos que gosta, associe a leitura com outras atividades de rotina.</p>
                </div>
              </div>
              <div class="col-xl-4 d-flex align-items-stretch">
                <div class="icon-box mt-4 mt-xl-0">
                  <!--<i class="bx bx-images"></i>-->
-                 <h4>Labore consequatur</h4>
-                 <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                 <h4>Ler faz bem para a saúde?</h4>
+                 <p>Quando lemos melhoramos o funciinamento cerebral, o que ajuda a "atrasar" sintomas de doenças como demência e Alzheimer.</p>
                </div>
              </div>
            </div>
@@ -127,8 +131,8 @@
      </div>
    </div>
  </section><!-- End Why Us Section -->
-<br>
-  <section id="features" class="features">
+ <br>
+ <section id="features" class="features">
    <div class="container" data-aos="fade-up">
      <div class="section-title">
        <h2>Conheça</h2>
@@ -138,13 +142,15 @@
      <div class="row" data-aos="zoom-in" data-aos-delay="100" style="text-align: center;">
        <div class="col-lg-3 col-md-4">
          <div class="icon-box">
-           <div class="testimonial-item" style="text-align: center;"v>
+           <div class="testimonial-item" style="text-align: center;" v>
              <?= $this->Html->image('mentor/img/trainers/edineia.jpg', ['class' => 'img-fluid']); ?>
              <div class="member-content">
                <h4 style="text-align: center;">Edineia</h4>
-               <span style="font-weight: bold; font-size: 13px; line-height: 0.1%;">Lorem Ipsum </span>
-               <p style="font-size: 8px;list-style: circle;">
-                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+               <span style="font-weight: bold; font-size: 15px; line-height: 0.1%;">
+                 Manhã 07:00 - 13:00
+               </span>
+               <p style="font-size: 15px;list-style: circle;">
+                 Bibliotecaria, responsavel pelo processo tecnico e atendimento aos alunos.
                </p>
 
              </div>
@@ -157,10 +163,11 @@
              <?= $this->Html->image('mentor/img/trainers/lucia.jpg', ['class' => 'img-fluid']); ?>
              <div class="member-content" style="text-align: center;">
                <h4>Lucia</h4>
-               <span style="font-weight: bold; font-size: 13px; line-height: 0.1%;">Lorem Ipsum</span>
-               <p style="font-size: 8px;list-style: circle;">
-                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-               </p>
+               <span style="font-weight: bold; font-size: 15px; line-height: 0.1%;">Manhã 07:00 - 11:00</span><br>
+               <span style="font-weight: bold; font-size: 15px; line-height: 0.1%;">Tarde 13:00 - 17:00</span>
+
+               <p style="font-size: 15px;list-style: circle;">
+                 Professora readaptada (auxiliar da Bibliotecaria). </p>
              </div>
            </div>
          </div>

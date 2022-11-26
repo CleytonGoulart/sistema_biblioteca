@@ -154,7 +154,7 @@ $cakeDescription = 'CEPEF - Biblioteca';
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Biblioteca CEPEF, seu canto da leitura</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>"A leitura é para o intelecto o que exercício é para o corpo." ~Joseph Addison</p>
             <!--
              <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
